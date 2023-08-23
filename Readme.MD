@@ -11,8 +11,20 @@ Use two datasets to build a machine learning model that can recognize Tunisian l
 ## Dataset
 * __File name:__ [LP](LP) | [LP_digit](LP_digit)
 * __Source:__ [Link to LP folder source](https://www.kaggle.com/datasets/achrafkhazri/labeled-licence-plates-dataset) | [Link to LP_digit folder source](https://www.kaggle.com/datasets/khazri/tunisian-licence-plate)
+* __Limitation:__ Some numbers in pictures been chopped are very hard to see, because of the resolution of the origional picture is too low.
 
-## Link
+## Data Perprocessing:
+* Remove/Fix all pictures that their licence plates are not parallel(ie. some pictures in the file are been rotated) 
+* Remoce pictures that their licence plates are too small
+* Remove pictures that are hard to see(low resolution)
+* Use .xml file to chop pictures and only keep the licence plate part
+
+## Link to Jupyter Notebook
 * __Link to ML model:__ [Jupyter Notebook](Digit_recognize.ipynb)
 * __Link to xml excract:__ [Jupyter Notebook(Not finished yet)]()
 * __Link to split licence plates:__ [Jupyter Notebook(Not finished yet)]()
+
+## Future Improvement
+1. Instead using .xml file to get the licence plates from pictures, use another way tp get wher licence plates located in pictures.
+2. <font color='red'> THINGS NEED TO BE ADDED HERE </font>
+3. 
