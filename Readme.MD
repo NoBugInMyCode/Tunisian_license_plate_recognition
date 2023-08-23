@@ -11,3 +11,8 @@ Use two datasets to build a machine learning model that can recognize Tunisian l
 ## Dataset
 * __File name:__ [LP](LP) | [LP_digit](LP_digit)
 * __Source:__ [Link to LP folder source](https://www.kaggle.com/datasets/achrafkhazri/labeled-licence-plates-dataset) | [Link to LP_digit folder source](https://www.kaggle.com/datasets/khazri/tunisian-licence-plate)
+
+## Link
+* __Link to ML model:__ [Jupyter Notebook](Digit_recognize.ipynb)
+* __Link to xml excract:__ [Jupyter Notebook(Not finished yet)]()
+* __Link to split licence plates:__ [Jupyter Notebook(Not finished yet)]()
