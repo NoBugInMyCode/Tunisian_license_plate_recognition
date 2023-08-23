@@ -3,7 +3,7 @@ Use two datasets to build a machine learning model that can recognize Tunisian l
 
 ## Project overview
 #### This project can divide into 4 steps
-1. Build a machine learning model(CNN) that can recognize digit numbers from 0 to 9, and a special Tunisian letter in the middle of the licence plate
+1. Build a machine learning model(CNN/VGG depends on which has better accuracy) that can recognize digit numbers from 0 to 9, and a special Tunisian letter in the middle of the licence plate
 2.  
     * Use .xml file from dataset to locate the licence plate from pictures
     * Build another ML model taht can decate licence plate by itself(If I have time to do it) 
